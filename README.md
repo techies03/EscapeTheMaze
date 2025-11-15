@@ -22,7 +22,7 @@ Menu navigation
 - Enter/Space to select
 - Esc to go back
 
-Instructions screen
+sInstructions screen
 - From the Main Menu, choose “Instructions” to see an in‑game quick guide with controls and tips.
 
 ## Developer shortcuts (kept enabled, not shown in HUD)
