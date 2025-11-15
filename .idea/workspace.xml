@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0cf1f6bd-4001-4631-b52e-7df7259b61aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/EscapeTheMaze.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton1/v1/skeleton_v1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton1/v1/skeleton_v1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton1/v1/skeleton_v1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton1/v1/skeleton_v1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton1/v2/skeleton_v2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton1/v2/skeleton_v2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton1/v2/skeleton_v2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton1/v2/skeleton_v2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/skeleton2_v1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/skeleton2_v1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/skeleton2_v1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/skeleton2_v1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v2/skeleton2_v2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v2/skeleton2_v2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v2/skeleton2_v2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v2/skeleton2_v2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skull/v1/skull_v1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skull/v1/skull_v1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skull/v1/skull_v1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skull/v1/skull_v1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skull/v2/skull_v2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skull/v2/skull_v2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skull/v2/skull_v2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skull/v2/skull_v2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/vampire/v1/vampire_v1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/vampire/v1/vampire_v1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/vampire/v1/vampire_v1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/vampire/v1/vampire_v1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/vampire/v2/vampire_v2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/vampire/v2/vampire_v2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/vampire/v2/vampire_v2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/vampire/v2/vampire_v2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest1/v1/priest1_v1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest1/v1/priest1_v1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest1/v1/priest1_v1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest1/v1/priest1_v1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest1/v2/priest1_v2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest1/v2/priest1_v2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest1/v2/priest1_v2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest1/v2/priest1_v2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest2/v1/priest2_v1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest2/v1/priest2_v1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest2/v1/priest2_v1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest2/v1/priest2_v1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest2/v2/priest2_v2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest2/v2/priest2_v2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest2/v2/priest2_v2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest2/v2/priest2_v2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest3/v1/priest3_v1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest3/v1/priest3_v1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest3/v1/priest3_v1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest3/v1/priest3_v1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest3/v2/priest3_v2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest3/v2/priest3_v2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest3/v2/priest3_v2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest3/v2/priest3_v2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Dungeon_Character_at.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/Dungeon_gif.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Character.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Character_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Tileset.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/character and tileset/demonstration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/interface/arrow_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/interface/arrow_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/interface/arrow_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/interface/arrow_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/interface/square_left_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/interface/square_left_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/interface/square_left_2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/interface/square_left_2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/interface/square_left_2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/interface/square_left_2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/interface/square_left_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/interface/square_left_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/interface/square_right_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/interface/square_right_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/interface/square_right_2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/interface/square_right_2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/interface/square_right_2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/interface/square_right_2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/interface/square_right_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/interface/square_right_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/interface/square_up_down_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/interface/square_up_down_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/interface/square_up_down_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/interface/square_up_down_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/arrow/Just_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/arrow/arrow_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/arrow/arrow_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/arrow/arrow_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/arrow/arrow_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/box_1/box_1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/box_1/box_1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/box_1/box_1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/box_1/box_1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/box_2/box_2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/box_2/box_2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/box_2/box_2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/box_2/box_2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_open_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_open_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_open_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_open_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/coin/coin_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/coin/coin_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/coin/coin_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/coin/coin_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flag/flag_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flag/flag_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flag/flag_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flag/flag_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flamethrower/flamethrower_1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flamethrower/flamethrower_1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flamethrower/flamethrower_1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flamethrower/flamethrower_1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flamethrower/flamethrower_2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flamethrower/flamethrower_2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flamethrower/flamethrower_2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flamethrower/flamethrower_2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_3_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_3_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_3_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_3_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_4_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_4_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_4_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_4_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/keys/keys_1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/keys/keys_1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/keys/keys_1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/keys/keys_1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/keys/keys_2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/keys/keys_2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/keys/keys_2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/keys/keys_2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_box_1/mini_box_1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_box_1/mini_box_1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_box_1/mini_box_1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_box_1/mini_box_1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_box_2/mini_box_2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_box_2/mini_box_2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_box_2/mini_box_2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_box_2/mini_box_2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_chest/mini_chest_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_chest/mini_chest_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_chest/mini_chest_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_chest/mini_chest_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_chest/mini_chest_open_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_chest/mini_chest_open_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_chest/mini_chest_open_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_chest/mini_chest_open_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/peaks/Traps.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/peaks/peaks_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/peaks/peaks_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/peaks/peaks_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/peaks/peaks_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/side_torch_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/side_torch_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/side_torch_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/side_torch_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/torch_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/torch_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/torch_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/torch_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy_Animations_Set/enemies-skeleton1_attack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy_Animations_Set/enemies-skeleton1_death.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy_Animations_Set/enemies-skeleton1_idle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy_Animations_Set/enemies-skeleton1_movement.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy_Animations_Set/enemies-skeleton1_take_damage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy_Animations_Set/enemies-skeleton2_attack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy_Animations_Set/enemies-skeleton2_death.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy_Animations_Set/enemies-skeleton2_death2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy_Animations_Set/enemies-skeleton2_idle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy_Animations_Set/enemies-skeleton2_movemen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy_Animations_Set/enemies-skeleton2_take_damage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy_Animations_Set/enemies-vampire_attack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy_Animations_Set/enemies-vampire_death.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy_Animations_Set/enemies-vampire_idle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy_Animations_Set/enemies-vampire_movement.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy_Animations_Set/enemies-vampire_take_damage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Enemy_Animations_Set/enemies.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/RPG_Hero/attack/attack_down_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/RPG_Hero/attack/attack_left_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/RPG_Hero/attack/attack_right_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/RPG_Hero/attack/attack_up_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/RPG_Hero/death/death_down_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/RPG_Hero/death/death_left_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/RPG_Hero/death/death_right_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/RPG_Hero/death/death_up_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/RPG_Hero/idle/idle_down_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/RPG_Hero/idle/idle_left_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/RPG_Hero/idle/idle_right_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/RPG_Hero/idle/idle_up_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/RPG_Hero/run/run_down_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/RPG_Hero/run/run_left_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/RPG_Hero/run/run_right_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/RPG_Hero/run/run_up_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/enemies/enemies-skeleton1_idle_r1_c1_processed_by_imagy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/enemies/enemies-skeleton2_idle_r1_c1_processed_by_imagy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/enemies/enemies-vampire_idle_r1_c1_processed_by_imagy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/menu_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sounds/dungeon_theme_sound_effect.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/tilesets/Dungeon_Tileset.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/tilesets/enemies.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/level1.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/level2.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/camera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collectible.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decoration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/door.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enemy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fog_of_war.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ladder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sound_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/sim_down_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test_map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trap.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="34z5lJGpM6RYfCROzKkDFN7WGsx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.game.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.script.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/CEED/PycharmProjects/Final/EscapeTheMaze/assets/sounds",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PyCharm 2025.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CEED\PycharmProjects\Final\EscapeTheMaze\assets\sounds" />
+      <recent name="C:\Users\CEED\PycharmProjects\Final\EscapeTheMaze\assets" />
+      <recent name="C:\Users\CEED\PycharmProjects\Final\EscapeTheMaze\maps" />
+      <recent name="C:\Users\CEED\PycharmProjects\Final\EscapeTheMaze\assets\tilesets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\CEED\PycharmProjects\Final\EscapeTheMaze\src\test" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="EscapeTheMaze" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (EscapeTheMaze)" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\CEED\PycharmProjects\Final\EscapeTheMaze" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.26830.99" />
+        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cf1f6bd-4001-4631-b52e-7df7259b61aa" name="Changes" comment="" />
+      <created>1762203709775</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762203709775</updated>
+      <workItem from="1762203710771" duration="111000" />
+      <workItem from="1762203853339" duration="17832000" />
+      <workItem from="1762424164667" duration="7000" />
+      <workItem from="1763101992031" duration="353000" />
+      <workItem from="1763102359030" duration="4595000" />
+      <workItem from="1763172432700" duration="1725000" />
+      <workItem from="1763174209678" duration="13437000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/EscapeTheMaze$game.coverage" NAME="game Coverage Results" MODIFIED="1763102611848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/EscapeTheMaze$script.coverage" NAME="script Coverage Results" MODIFIED="1762205269007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EscapeTheMaze$main.coverage" NAME="main Coverage Results" MODIFIED="1763187544105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\CEED\PycharmProjects\Final\EscapeTheMaze" />
+  </component>
+</project>

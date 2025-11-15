@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="50" height="38" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="156">
+ <tileset firstgid="1" source="../assets/tilesets/Dungeon_Tileset.tsx"/>
+ <tileset firstgid="101" source="../assets/tilesets/enemies.tsx"/>
+ <tileset firstgid="107" source="../assets/2D Pixel Dungeon Asset Pack/items and trap_animation/peaks/Traps.tsx"/>
+ <layer id="1" name="Background" width="50" height="38">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,7,8,9,27,0,0,0,0,0,0,0,0,0,0,0,0,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,7,8,9,27,0,0,0,0,0,0,0,0,0,0,0,0,27,27,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,27,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,8,9,27,0,0,7,7,7,7,7,8,9,0,0,0,27,27,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,27,27,27,27,27,27,27,0,0,0,0,0,
+0,0,0,0,8,27,27,0,0,17,17,17,17,17,18,19,0,0,0,27,27,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,27,27,27,27,27,27,27,0,0,0,0,0,
+0,0,0,0,27,27,27,0,0,27,27,27,27,27,28,29,0,0,0,7,8,9,9,9,9,9,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,27,27,27,27,0,0,0,0,0,
+0,0,0,0,27,27,27,0,0,27,28,29,0,0,0,0,0,0,0,7,8,9,19,19,19,19,19,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,27,27,0,0,0,0,0,
+0,0,0,27,27,27,27,7,7,27,28,29,0,0,0,0,0,0,0,7,8,27,27,27,27,27,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,9,0,0,0,0,0,
+0,27,27,27,17,17,17,17,17,27,28,29,0,0,7,8,9,0,0,7,8,27,0,0,0,27,28,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,18,19,0,0,0,0,0,
+0,27,27,27,27,27,27,27,27,27,28,29,0,0,17,18,19,0,0,27,27,27,27,0,0,27,28,29,7,7,7,7,7,7,8,9,0,0,0,0,0,0,27,28,29,0,0,0,0,0,
+0,27,27,0,0,0,27,27,27,0,0,0,0,0,27,28,29,0,0,17,18,19,27,0,0,27,28,29,17,17,17,17,17,17,18,19,0,0,0,0,0,0,27,28,29,0,0,0,0,0,
+0,27,27,0,0,0,27,27,27,0,0,0,0,0,27,28,29,0,0,27,28,29,27,0,0,27,27,29,27,27,27,27,27,27,28,29,0,0,0,0,0,0,27,28,29,0,0,0,0,0,
+0,27,27,0,0,0,27,27,27,0,0,0,0,0,27,28,29,0,0,0,0,0,0,0,0,27,27,29,0,0,0,0,0,7,8,9,0,0,0,0,0,0,27,28,29,0,0,0,0,0,
+0,27,27,0,0,0,27,27,27,0,0,0,0,0,27,27,27,0,0,0,0,0,0,0,0,27,27,29,0,0,0,0,0,7,8,9,0,0,0,0,0,0,27,28,29,0,0,0,0,0,
+0,27,27,0,0,0,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,29,0,0,0,0,0,7,8,9,7,7,7,7,7,7,27,28,29,0,0,0,0,0,
+0,27,27,0,0,0,17,17,17,17,17,17,17,17,17,17,18,19,17,17,17,17,17,17,17,27,28,29,0,0,0,0,0,7,8,9,17,17,17,17,17,17,27,28,29,0,0,0,0,0,
+0,27,27,0,0,0,27,27,27,27,27,27,27,27,27,27,28,29,27,27,27,27,27,27,27,27,28,29,0,0,0,0,0,7,8,9,27,27,27,27,27,27,27,28,29,0,0,0,0,0,
+0,27,27,0,0,0,0,0,0,8,9,0,0,0,0,0,0,0,0,0,0,0,0,7,8,9,0,0,0,0,0,0,0,7,8,9,0,0,0,0,7,8,9,0,0,0,0,0,0,0,
+0,27,27,0,0,0,0,0,0,8,9,0,0,0,0,0,0,0,0,0,0,0,0,7,8,9,0,0,0,0,0,0,0,7,8,9,0,0,0,0,7,8,9,0,0,0,0,0,0,0,
+0,27,27,0,0,0,0,0,0,8,9,0,0,0,0,0,0,0,0,0,0,0,0,7,8,9,0,0,0,0,0,0,0,7,8,9,0,0,0,0,7,8,9,0,0,0,0,0,0,0,
+0,27,27,0,0,0,0,0,0,8,9,27,27,27,27,27,27,27,27,27,27,27,27,7,8,9,0,0,7,8,9,0,0,7,8,9,0,0,0,0,7,8,9,0,0,0,0,0,0,0,
+0,27,27,0,0,0,0,0,0,8,9,27,27,27,27,27,27,27,27,27,27,27,27,17,18,19,0,0,17,18,19,0,0,7,8,9,0,0,0,0,7,8,9,0,0,0,0,0,0,0,
+0,27,27,0,0,0,0,79,0,8,9,0,0,0,0,0,0,0,0,0,0,0,0,27,28,29,0,0,27,28,29,0,0,7,8,9,0,0,0,0,7,8,9,0,0,0,0,0,0,0,
+0,27,27,27,27,27,27,27,27,8,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,28,29,0,0,7,8,9,0,0,0,0,7,8,9,0,0,0,0,0,0,0,
+0,27,27,27,27,27,27,27,27,8,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,28,29,0,0,7,8,9,0,0,0,0,7,8,9,0,0,0,0,0,0,0,
+0,0,0,0,27,27,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,28,29,0,0,17,18,19,0,0,0,0,7,8,9,0,0,0,0,0,0,0,
+0,0,0,0,27,27,0,0,0,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,19,0,0,27,28,29,0,0,27,28,29,0,0,0,0,7,8,9,0,0,0,0,0,0,0,
+0,0,0,0,27,27,0,0,0,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,28,29,0,0,27,28,29,0,0,0,0,0,0,0,0,0,7,8,9,0,0,0,0,0,0,0,
+0,0,0,0,27,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,28,29,0,0,0,0,0,0,0,0,0,7,8,9,0,0,0,0,0,0,0,
+0,0,0,0,27,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,27,29,27,27,0,0,0,0,0,0,0,7,8,9,0,0,0,0,0,0,0,
+0,0,27,8,9,17,27,27,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,27,27,27,27,27,27,0,0,0,0,0,0,0,7,8,9,0,0,0,0,0,0,0,
+0,0,27,8,9,27,28,27,27,27,27,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,27,27,7,7,7,7,7,7,7,7,7,7,7,8,9,0,0,0,0,0,0,0,
+0,0,27,7,7,27,28,27,27,27,27,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,27,17,27,27,27,27,27,27,27,27,27,17,18,19,0,0,0,0,0,0,0,
+0,0,27,17,17,27,28,29,0,0,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,28,29,0,0,0,0,0,0,0,
+0,0,27,27,27,27,28,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="Objects">
+  <object id="2" name="Door" gid="67" x="144" y="432" width="16" height="16">
+   <properties>
+    <property name="count" type="int" value="3"/>
+    <property name="obj_type" value="door"/>
+    <property name="orientation" value="left"/>
+    <property name="required_key" value="silver"/>
+   </properties>
+  </object>
+  <object id="3" name="Door" gid="68" x="162" y="432" width="16" height="16">
+   <properties>
+    <property name="count" type="int" value="3"/>
+    <property name="obj_type" value="door"/>
+    <property name="orientation" value="right"/>
+    <property name="required_key" value="silver"/>
+   </properties>
+  </object>
+  <object id="8" name="Player Spawn" x="64" y="528" width="19.3333" height="20">
+   <properties>
+    <property name="obj_name" value="player_spawn"/>
+    <property name="obj_type" value="spawn"/>
+   </properties>
+  </object>
+  <object id="11" name="Silver Keys" gid="89" x="80" y="96" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="item" value="key"/>
+    <property name="key_type" value="silver"/>
+    <property name="obj_type" value="collectible"/>
+   </properties>
+  </object>
+  <object id="12" name="Silver Keys" gid="89" x="656" y="368" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="item" value="key"/>
+    <property name="key_type" value="silver"/>
+    <property name="obj_type" value="collectible"/>
+   </properties>
+  </object>
+  <object id="13" name="Silver Keys" gid="89" x="544" y="432" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="item" value="key"/>
+    <property name="key_type" value="silver"/>
+    <property name="obj_type" value="collectible"/>
+   </properties>
+  </object>
+  <object id="14" name="Silver Keys" gid="89" x="384" y="368" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="item" value="key"/>
+    <property name="key_type" value="silver"/>
+    <property name="obj_type" value="collectible"/>
+   </properties>
+  </object>
+  <object id="15" name="Golden Keys" gid="100" x="385.333" y="456.667" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="item" value="key"/>
+    <property name="key_type" value="golden"/>
+    <property name="obj_type" value="collectible"/>
+   </properties>
+  </object>
+  <object id="16" name="Golden Keys" gid="100" x="327.125" y="119.25" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="item" value="key"/>
+    <property name="key_type" value="golden"/>
+    <property name="obj_type" value="collectible"/>
+   </properties>
+  </object>
+  <object id="18" name="Ladder" gid="40" x="328.182" y="191.818" width="16" height="16">
+   <properties>
+    <property name="destination" value="&quot;finish&quot;"/>
+    <property name="obj_type" value="ladder"/>
+   </properties>
+  </object>
+  <object id="19" name="Coins" gid="87" x="144" y="528" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="item" value="coin"/>
+    <property name="obj_type" value="collectible"/>
+    <property name="value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="20" name="Coins" gid="87" x="64" y="496" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="item" value="coin"/>
+    <property name="obj_type" value="collectible"/>
+    <property name="value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="21" name="Coins" gid="87" x="304" y="208" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="item" value="coin"/>
+    <property name="obj_type" value="collectible"/>
+    <property name="value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="22" name="Coins" gid="87" x="144" y="544" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="item" value="coin"/>
+    <property name="obj_type" value="collectible"/>
+    <property name="value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="30" name="Coins" gid="87" x="454.667" y="358.667" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="item" value="coin"/>
+    <property name="obj_type" value="collectible"/>
+    <property name="value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="31" name="Coins" gid="87" x="473.333" y="359.333" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="item" value="coin"/>
+    <property name="obj_type" value="collectible"/>
+    <property name="value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="32" name="Coins" gid="87" x="463.333" y="374" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="item" value="coin"/>
+    <property name="obj_type" value="collectible"/>
+    <property name="value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="34" name="Coins" gid="87" x="242" y="165.333" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="item" value="coin"/>
+    <property name="obj_type" value="collectible"/>
+    <property name="value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="35" name="Coins" gid="87" x="145.333" y="80" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="item" value="coin"/>
+    <property name="obj_type" value="collectible"/>
+    <property name="value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="36" name="Coins" gid="87" x="352" y="176" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="item" value="coin"/>
+    <property name="obj_type" value="collectible"/>
+    <property name="value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="39" name="Potion" gid="99" x="227.333" y="175.333" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="heal" type="int" value="25"/>
+    <property name="item" value="potion"/>
+    <property name="obj_type" value="collectible"/>
+   </properties>
+  </object>
+  <object id="40" name="Potion" gid="99" x="471.333" y="389.333" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="heal" type="int" value="25"/>
+    <property name="item" value="potion"/>
+    <property name="obj_type" value="collectible"/>
+   </properties>
+  </object>
+  <object id="46" name="Enemies S1" gid="104" x="672" y="224" width="32" height="32">
+   <properties>
+    <property name="obj_name" value="skeleton1"/>
+    <property name="obj_type" value="enemy"/>
+   </properties>
+  </object>
+  <object id="47" name="Enemies S1" gid="104" x="304" y="464" width="32" height="32">
+   <properties>
+    <property name="obj_name" value="skeleton1"/>
+    <property name="obj_type" value="enemy"/>
+   </properties>
+  </object>
+  <object id="86" name="Peaks" gid="107" x="176" y="448" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="87" name="Peaks" gid="107" x="192" y="464" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="88" name="Peaks" gid="107" x="224" y="448" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="89" name="Peaks" gid="107" x="240" y="464" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="90" name="Peaks" gid="107" x="272" y="448" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="91" name="Peaks" gid="107" x="224" y="224" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="92" name="Peaks" gid="107" x="240" y="224" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="93" name="Peaks" gid="107" x="256" y="224" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="95" name="Peaks" gid="107" x="160" y="384" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="96" name="Peaks" gid="107" x="144" y="304" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="97" name="Peaks" gid="107" x="144" y="384" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="98" name="Peaks" gid="107" x="352" y="448" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="99" name="Peaks" gid="107" x="368" y="336" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="100" name="Peaks" gid="107" x="384" y="336" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="101" name="Peaks" gid="107" x="400" y="336" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="102" name="Peaks" gid="107" x="448" y="416" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="103" name="Peaks" gid="107" x="464" y="416" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="104" name="Peaks" gid="107" x="352" y="464" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="106" name="Peaks" gid="107" x="480" y="416" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="107" name="Peaks" gid="107" x="688" y="240" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="108" name="Peaks" gid="107" x="704" y="240" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="110" name="Peaks" gid="107" x="672" y="240" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="113" name="FinalDoor" gid="67" x="304" y="144" width="16" height="16">
+   <properties>
+    <property name="count" type="int" value="3"/>
+    <property name="obj_type" value="door"/>
+    <property name="orientation" value="left"/>
+    <property name="required_key" value="golden"/>
+   </properties>
+  </object>
+  <object id="114" name="FinalDoor" gid="68" x="322" y="144" width="16" height="16">
+   <properties>
+    <property name="count" type="int" value="3"/>
+    <property name="obj_type" value="door"/>
+    <property name="orientation" value="right"/>
+    <property name="required_key" value="golden"/>
+   </properties>
+  </object>
+  <object id="115" name="Enemies S2" gid="105" x="485.5" y="193" width="32" height="32">
+   <properties>
+    <property name="obj_name" value="skeleton2"/>
+    <property name="obj_type" value="enemy"/>
+   </properties>
+  </object>
+  <object id="118" name="Enemies S2" gid="105" x="67" y="419.5" width="32" height="32">
+   <properties>
+    <property name="obj_name" value="skeleton2"/>
+    <property name="obj_type" value="enemy"/>
+   </properties>
+  </object>
+  <object id="119" name="Enemies S2" gid="105" x="73" y="121" width="32" height="32">
+   <properties>
+    <property name="obj_name" value="skeleton2"/>
+    <property name="obj_type" value="enemy"/>
+   </properties>
+  </object>
+  <object id="120" name="Enemies S2" gid="105" x="455.5" y="548" width="32" height="32">
+   <properties>
+    <property name="obj_name" value="skeleton2"/>
+    <property name="obj_type" value="enemy"/>
+   </properties>
+  </object>
+  <object id="121" name="Enemies S2" gid="105" x="650" y="387.5" width="32" height="32">
+   <properties>
+    <property name="obj_name" value="skeleton2"/>
+    <property name="obj_type" value="enemy"/>
+   </properties>
+  </object>
+  <object id="122" name="Enemies Vampire" gid="106" x="288" y="368" width="32" height="32">
+   <properties>
+    <property name="obj_name" value="vampire"/>
+    <property name="obj_type" value="enemy"/>
+   </properties>
+  </object>
+  <object id="123" name="Enemies Vampire" gid="106" x="528" y="368" width="32" height="32">
+   <properties>
+    <property name="obj_name" value="vampire"/>
+    <property name="obj_type" value="enemy"/>
+   </properties>
+  </object>
+  <object id="124" name="Enemies Vampire" gid="106" x="688" y="96" width="32" height="32">
+   <properties>
+    <property name="obj_name" value="vampire"/>
+    <property name="obj_type" value="enemy"/>
+   </properties>
+  </object>
+  <object id="125" name="Enemies Vampire" gid="106" x="304" y="128" width="32" height="32">
+   <properties>
+    <property name="obj_name" value="vampire"/>
+    <property name="obj_type" value="enemy"/>
+   </properties>
+  </object>
+  <object id="128" name="Potion" gid="99" x="16" y="352" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="heal" type="int" value="25"/>
+    <property name="item" value="potion"/>
+    <property name="obj_type" value="collectible"/>
+   </properties>
+  </object>
+  <object id="129" name="Potion" gid="99" x="400" y="384" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="heal" type="int" value="25"/>
+    <property name="item" value="potion"/>
+    <property name="obj_type" value="collectible"/>
+   </properties>
+  </object>
+  <object id="130" name="Potion" gid="99" x="368" y="352" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="heal" type="int" value="25"/>
+    <property name="item" value="potion"/>
+    <property name="obj_type" value="collectible"/>
+   </properties>
+  </object>
+  <object id="131" name="Potion" gid="99" x="592" y="48" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="heal" type="int" value="25"/>
+    <property name="item" value="potion"/>
+    <property name="obj_type" value="collectible"/>
+   </properties>
+  </object>
+  <object id="132" name="Potion" gid="99" x="304" y="32" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="heal" type="int" value="25"/>
+    <property name="item" value="potion"/>
+    <property name="obj_type" value="collectible"/>
+   </properties>
+  </object>
+  <object id="133" name="Potion" gid="99" x="544" y="544" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="heal" type="int" value="25"/>
+    <property name="item" value="potion"/>
+    <property name="obj_type" value="collectible"/>
+   </properties>
+  </object>
+  <object id="134" name="Potion" gid="99" x="352" y="544" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="heal" type="int" value="25"/>
+    <property name="item" value="potion"/>
+    <property name="obj_type" value="collectible"/>
+   </properties>
+  </object>
+  <object id="135" name="Potion" gid="99" x="672" y="480" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="heal" type="int" value="25"/>
+    <property name="item" value="potion"/>
+    <property name="obj_type" value="collectible"/>
+   </properties>
+  </object>
+  <object id="136" name="Potion" gid="99" x="640" y="320" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="heal" type="int" value="25"/>
+    <property name="item" value="potion"/>
+    <property name="obj_type" value="collectible"/>
+   </properties>
+  </object>
+  <object id="137" name="Peaks" gid="107" x="160" y="304" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="138" name="Peaks" gid="107" x="400" y="160" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="139" name="Peaks" gid="107" x="416" y="160" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="140" name="Peaks" gid="107" x="432" y="160" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="143" name="Peaks" gid="107" x="528" y="304" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="144" name="Peaks" gid="107" x="544" y="304" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="145" name="Peaks" gid="107" x="560" y="304" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="146" name="Peaks" gid="107" x="640" y="512" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="147" name="Peaks" gid="107" x="656" y="512" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="148" name="Peaks" gid="107" x="672" y="512" width="16" height="16">
+   <properties>
+    <property name="damage" type="int" value="25"/>
+    <property name="frame_duration" type="float" value="0.15"/>
+    <property name="frames" type="int" value="4"/>
+    <property name="obj_name" value="peaks"/>
+    <property name="obj_type" value="trap"/>
+   </properties>
+  </object>
+  <object id="149" name="Coins" gid="87" x="80" y="496" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="item" value="coin"/>
+    <property name="obj_type" value="collectible"/>
+    <property name="value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="150" name="Coins" gid="87" x="272" y="272" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="item" value="coin"/>
+    <property name="obj_type" value="collectible"/>
+    <property name="value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="151" name="Coins" gid="87" x="272" y="288" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="item" value="coin"/>
+    <property name="obj_type" value="collectible"/>
+    <property name="value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="152" name="Coins" gid="87" x="368" y="384" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="item" value="coin"/>
+    <property name="obj_type" value="collectible"/>
+    <property name="value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="153" name="Coins" gid="87" x="272" y="256" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="item" value="coin"/>
+    <property name="obj_type" value="collectible"/>
+    <property name="value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="154" name="Coins" gid="87" x="400" y="352" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="item" value="coin"/>
+    <property name="obj_type" value="collectible"/>
+    <property name="value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="155" name="Golden Keys" gid="100" x="688" y="112" width="16" height="16">
+   <properties>
+    <property name="frames" type="int" value="4"/>
+    <property name="item" value="key"/>
+    <property name="key_type" value="golden"/>
+    <property name="obj_type" value="collectible"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="2" name="Collision" width="50" height="38">
+  <data encoding="csv">
+79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,1,2,3,4,5,3,4,5,3,4,5,3,4,5,3,4,5,3,4,5,2,6,79,79,79,79,79,79,79,79,79,79,
+79,79,79,11,2,3,4,6,79,79,79,79,79,79,79,79,79,79,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,79,79,79,79,79,79,79,79,79,79,
+79,79,79,21,0,0,0,16,79,79,79,79,79,79,79,79,79,79,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,79,79,79,79,79,79,79,79,79,79,
+79,79,79,31,0,0,0,26,1,3,4,5,2,3,4,5,6,79,21,0,0,55,42,42,44,45,42,43,44,45,42,43,44,45,42,43,54,0,0,2,3,4,5,4,5,6,79,79,79,79,
+79,79,79,1,0,0,0,36,11,0,0,0,0,0,0,0,16,79,31,0,0,36,79,79,79,79,79,79,79,79,79,79,79,79,79,79,1,0,0,0,0,0,0,0,0,16,79,79,79,79,
+79,79,79,11,0,0,0,16,21,0,0,0,0,0,0,0,26,79,1,0,0,4,5,3,4,5,2,3,6,79,79,79,79,79,79,79,11,0,0,0,0,0,0,0,0,26,79,79,79,79,
+79,79,79,21,0,0,0,26,31,0,0,0,0,0,0,0,36,79,11,0,0,0,0,0,0,0,0,0,16,79,79,79,79,79,79,79,41,42,43,44,45,54,0,0,0,36,79,79,79,79,
+79,79,79,31,0,0,0,4,5,0,0,0,55,42,43,42,46,79,21,0,0,0,0,0,0,0,0,0,26,79,79,79,79,79,79,79,0,79,79,79,79,1,0,0,0,6,79,79,79,79,
+1,2,3,3,0,0,0,0,0,0,0,0,16,1,3,4,5,6,31,0,0,55,43,44,56,0,0,0,6,79,79,79,79,79,79,79,79,79,79,79,79,11,0,0,0,16,79,79,79,79,
+1,0,0,0,0,0,0,0,0,0,0,0,26,11,0,0,0,16,11,0,0,3,4,6,21,0,0,0,2,3,4,5,2,3,4,5,6,79,79,79,79,21,0,0,0,16,79,79,79,79,
+1,0,0,0,0,0,0,0,0,0,0,0,36,21,0,0,0,26,11,0,0,0,0,6,31,0,0,0,0,0,0,0,0,0,0,0,16,79,79,79,79,31,0,0,0,26,79,79,79,79,
+11,0,0,51,43,54,0,0,0,55,42,43,46,11,0,0,0,36,21,0,0,0,0,6,21,0,0,0,0,0,0,0,0,0,0,0,16,79,79,79,79,11,0,0,0,36,79,79,79,79,
+21,0,0,16,79,11,0,0,0,16,79,79,79,21,0,0,0,16,31,0,0,0,0,36,31,0,0,0,0,0,0,0,0,0,0,0,26,79,79,79,79,21,0,0,0,16,79,79,79,79,
+31,0,0,26,79,21,0,0,0,26,79,79,79,31,0,0,0,16,41,42,44,45,45,46,11,0,0,0,55,44,45,45,54,0,0,0,36,79,79,79,79,31,0,0,0,26,79,79,79,79,
+1,0,0,36,79,31,0,0,0,3,4,5,5,5,0,0,0,2,2,2,2,2,2,3,4,0,0,0,16,79,79,79,11,0,0,0,2,3,2,3,4,5,0,0,0,36,79,79,79,79,
+11,0,0,6,79,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,79,79,79,21,0,0,0,0,0,0,0,0,0,0,0,0,16,79,79,79,79,
+21,0,0,16,79,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36,79,79,79,31,0,0,0,0,0,0,0,0,0,0,0,0,26,79,79,79,79,
+31,0,0,26,79,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36,79,79,79,11,0,0,0,0,0,0,0,0,0,0,0,0,36,79,79,79,79,
+1,0,0,36,79,41,42,42,54,0,0,55,42,43,44,45,44,45,42,43,44,45,54,0,0,0,55,45,46,79,79,79,21,0,0,0,55,45,45,54,0,0,0,55,45,46,79,79,79,79,
+11,0,0,6,79,79,79,79,11,0,0,6,79,79,79,79,79,79,79,79,79,79,1,0,0,0,6,79,79,79,79,79,31,0,0,0,16,79,79,1,0,0,0,16,79,79,79,79,79,79,
+21,0,0,16,79,79,79,79,21,0,0,2,3,4,5,2,3,4,5,2,3,4,5,0,0,0,16,1,3,4,5,6,11,0,0,0,6,79,79,11,0,0,0,16,79,79,79,79,79,79,
+31,0,0,26,79,79,79,79,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,11,0,0,0,16,21,0,0,0,16,79,79,21,0,0,0,26,79,79,79,79,79,79,
+1,0,0,36,79,79,79,79,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36,21,0,0,0,26,31,0,0,0,26,79,79,31,0,0,0,36,79,79,79,79,79,79,
+11,0,0,2,5,5,5,5,5,0,0,51,43,44,45,42,43,44,45,42,43,44,56,0,0,0,16,31,0,0,0,36,11,0,0,0,36,79,79,1,0,0,0,16,79,79,79,79,79,79,
+21,0,0,0,0,0,0,0,0,0,0,36,79,79,79,79,79,79,79,79,79,79,41,45,44,45,46,11,0,0,0,16,21,0,0,0,6,79,79,11,0,0,0,26,79,79,79,79,79,79,
+31,0,0,0,0,0,0,0,0,0,0,16,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,21,0,0,0,26,11,0,0,0,16,79,79,21,0,0,0,36,79,79,79,79,79,79,
+41,42,45,56,0,0,51,44,56,0,0,2,2,3,4,5,4,5,2,3,4,5,2,3,4,5,6,31,0,0,0,36,21,0,0,0,26,79,79,31,0,0,0,16,79,79,79,79,79,79,
+79,79,79,21,0,0,16,79,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,11,0,0,0,16,31,0,0,0,36,79,79,1,0,0,0,26,79,79,79,79,79,79,
+79,79,79,31,0,0,26,79,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36,21,0,0,0,26,41,42,43,44,46,79,79,11,0,0,0,36,79,79,79,79,79,79,
+79,79,79,31,0,0,36,79,41,43,44,45,42,43,44,45,42,43,44,45,42,43,44,45,44,45,46,31,0,0,0,36,79,79,79,79,79,79,79,21,0,0,0,16,79,79,79,79,79,79,
+79,1,3,3,0,0,3,5,6,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,1,0,0,0,6,79,79,79,79,79,79,79,31,0,0,0,26,79,79,79,79,79,79,
+79,11,0,0,0,0,0,0,2,2,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,2,2,2,0,0,0,5,3,4,5,5,5,5,5,5,0,0,0,36,79,79,79,79,79,79,
+79,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,79,79,79,79,79,79,
+79,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,79,79,79,79,79,79,
+79,21,0,0,0,0,0,0,51,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36,79,79,79,79,79,79,
+79,31,0,0,0,0,0,0,16,41,43,44,45,42,43,44,45,42,43,44,45,42,43,44,45,42,43,44,45,42,43,44,45,42,43,44,45,42,43,44,45,44,45,46,79,79,79,79,79,79,
+79,41,44,45,44,45,44,45,46,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,
+79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79
+</data>
+ </layer>
+ <layer id="3" name="Decorations" width="50" height="38">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,91,0,0,0,0,0,0,0,0,91,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,91,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,91,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,78,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,92,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,92,0,0,65,0,0,0,0,0,0,0,0,0,0,0,0,91,0,0,0,0,78,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,78,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,65,0,0,0,0,0,0,0,78,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,91,0,0,0,0,0,0,0,0,0,0,0,0,91,0,0,0,92,0,0,0,0,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,91,0,0,0,91,0,0,0,0,0,0,0,65,0,0,0,0,0,0,0,
+0,0,0,0,0,69,0,0,0,0,0,0,0,0,0,0,0,0,0,94,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,92,65,0,0,0,92,0,0,0,0,0,92,0,0,0,0,0,0,0,0,0,0,0,0,0,78,0,0,92,69,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,66,0,0,60,0,0,0,0,0,0,0,0,0,0,94,0,0,0,0,0,0,0,0,0,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,91,0,0,0,0,69,0,0,91,0,0,0,91,0,0,0,0,0,0,0,0,0,0,0,0,0,91,0,0,91,0,0,0,0,0,50,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,0,78,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,0,0,0,0,0,
+0,0,0,0,0,0,92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,92,0,0,0,0,0,0,0,0,0,78,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,78,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,69,0,0,0,0,0,0,60,69,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,78,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,92,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,0,0,0,0,0,0,0,0,0,66,0,0,69,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,92,0,0,0,0,92,0,0,0,78,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,78,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,78,0,0,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,91,0,0,0,0,0,91,0,0,0,0,0,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,92,0,0,0,0,0,0,0,0,0,0,0,0,0,78,0,66,0,0,0,0,0,0,0,0,0,0,0,0,60,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,92,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,92,0,0,0,0,78,0,0,0,69,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,91,0,0,91,0,0,78,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,78,0,0,0,0,0,0,0,91,0,0,0,91,0,0,0,0,91,0,0,0,0,91,0,0,0,0,0,0,91,0,0,0,0,91,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,69,0,0,0,0,0,0,0,0,0,0,0,
+0,0,92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,69,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,69,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,65,0,0,0,0,0,0,0,
+0,0,94,0,0,0,0,94,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,78,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
