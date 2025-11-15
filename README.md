@@ -39,17 +39,26 @@ These are available for testing but hidden from the on‑screen HUD:
 2) Install dependencies from requirements.txt
 3) Ensure assets and maps folders remain in place
 
-## Run
-From the project root:
+Quick setup (Windows, cmd):
 
-```bash
-python -m src.main
+```bat
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
 ```
 
-If your environment prefers script paths:
+## Run
+From the project root (Windows, cmd):
 
-```bash
-python src/main.py
+```bat
+.venv\Scripts\activate
+python src\main.py
+```
+
+Alternative (if you prefer the launcher):
+
+```bat
+py src\main.py
 ```
 
 ## Project structure (high level)
