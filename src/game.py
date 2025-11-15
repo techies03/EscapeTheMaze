@@ -505,10 +505,6 @@ class Game:
         controls_text = self.small_font.render("WASD/Arrows: Move | SPACE: Attack | ESC: Pause", True, (150, 150, 150))
         self.screen.blit(controls_text, (self.WINDOW_WIDTH - 520, self.WINDOW_HEIGHT - 30))
 
-        # Cheat mode hints
-        cheat_text = self.small_font.render("F1:Silver F2:Golden F3:HP F4:God F5:Kill F6:Exit", True, (100, 100, 100))
-        self.screen.blit(cheat_text, (10, self.WINDOW_HEIGHT - 30))
-
     def _render_pause_screen(self):
         """Render pause overlay without overlapping text"""
         overlay = pygame.Surface((self.WINDOW_WIDTH, self.WINDOW_HEIGHT))

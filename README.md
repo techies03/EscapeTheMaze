@@ -1,3 +1,80 @@
+# Escape The Maze
+
+A small top‑down dungeon crawler built with Pygame and TMX maps. Find keys, unlock doors, avoid traps and enemies, and reach the exit ladder to escape. Includes a main menu, level select, and an in‑menu Instructions screen.
+
+## Features
+- TMX maps via PyTMX with animated tiles and decorations
+- Player movement, combat, HP, score, and inventory (silver/golden keys)
+- Doors with key requirements, spike traps, collectibles (coins, potions, keys)
+- Enemies with simple AI and death animations
+- Fog of war effect and a camera with zoom
+- Menu system: Main Menu, Level Select, and Instructions
+- Sound effects and music with a central Sound Manager (mute toggle in menu)
+
+## Controls
+- Move: W/A/S/D or Arrow Keys
+- Attack: Space
+- Interact/Use: E (e.g., ladders)
+- Pause: Esc (Resume/Retry/Main Menu/Quit)
+
+Menu navigation
+- Up/Down or W/S to move the selection
+- Enter/Space to select
+- Esc to go back
+
+Instructions screen
+- From the Main Menu, choose “Instructions” to see an in‑game quick guide with controls and tips.
+
+## Developer shortcuts (kept enabled, not shown in HUD)
+These are available for testing but hidden from the on‑screen HUD:
+- F1: Give silver keys
+- F2: Give golden keys
+- F3: Restore full HP
+- F4: Toggle invincibility
+- F5: Kill all enemies
+- F6: Teleport near exit
+
+## Install
+1) Python 3.10+ is recommended
+2) Install dependencies from requirements.txt
+3) Ensure assets and maps folders remain in place
+
+## Run
+From the project root:
+
+```bash
+python -m src.main
+```
+
+If your environment prefers script paths:
+
+```bash
+python src/main.py
+```
+
+## Project structure (high level)
+- `src/` – game code
+  - `main.py` – app entry with menus and state management
+  - `game.py` – game loop, entities, HUD, screens
+  - `map_loader.py` – TMX loading, animated tiles, layers
+  - `player.py`, `enemy.py`, `door.py`, `ladder.py`, `trap.py`, `collectible.py` – gameplay entities
+  - `sound_manager.py` – music/SFX loading and playback
+  - `camera.py`, `fog_of_war.py` – rendering helpers
+- `maps/` – TMX levels (e.g., `level1.tmx`, `level2.tmx`)
+- `assets/` – sprites, tilesets, and UI art (plus optional `assets/menu_bg.png` for menu background)
+- `sounds/` – audio files
+
+## Troubleshooting
+- If you get an audio device error, try updating Pygame and your audio drivers, or set a different SDL audio driver in the environment.
+- Window is too large? Change `window_size` in `src/main.py`.
+- Performance: running without a debugger and closing other heavy apps can help. Ensure your Python and Pygame versions are up‑to‑date.
+
+---
+
+## Design/Mechanics Notes (detailed TMX overview)
+
+The following section is the original mechanics overview for this project. It documents how TMX properties map to runtime behaviors and is useful for level design and implementation reference.
+
 # Escape The Maze – TMX Mechanics Overview
 
 This document summarizes all gameplay mechanics, inferred behaviors, and runtime systems based on the TMX level provided. Everything is grouped by feature, with clear priorities and implementation hints.

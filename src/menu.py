@@ -94,13 +94,15 @@ class BaseMenu:
         self.screen.blit(hint, hint.get_rect(center=(width // 2, height - 40)))
 
 class MainMenu(BaseMenu):
-    def __init__(self, screen: pygame.Surface, on_start_level: Callable[[str], None], on_open_level_select: Callable[[], None], on_quit: Callable[[], None], background: pygame.Surface | None = None):
+    def __init__(self, screen: pygame.Surface, on_start_level: Callable[[str], None], on_open_level_select: Callable[[], None], on_open_instructions: Callable[[], None], on_quit: Callable[[], None], background: pygame.Surface | None = None):
         self.on_start_level = on_start_level
         self.on_open_level_select = on_open_level_select
+        self.on_open_instructions = on_open_instructions
         self.on_quit = on_quit
         super().__init__(screen, 'Escape The Maze', [
             MenuOption('Start Game (Level 1)', lambda: self.on_start_level('maps/level1.tmx')),
             MenuOption('Level Select', self.on_open_level_select),
+            MenuOption('Instructions', self.on_open_instructions),
             MenuOption('Mute: ' + ('ON' if sound_manager.is_muted() else 'OFF'), self._toggle_mute),
             MenuOption('Quit', self.on_quit),
         ], background=background)
@@ -121,3 +123,69 @@ class LevelSelectMenu(BaseMenu):
         opts = [MenuOption(level, lambda l=level: self.on_select(l)) for level in levels]
         opts.append(MenuOption('Back', self.on_back))
         super().__init__(screen, 'Select Level', opts, background=background)
+
+class InstructionsMenu(BaseMenu):
+    def __init__(self, screen: pygame.Surface, on_back: Callable[[], None], background: pygame.Surface | None = None):
+        self.on_back = on_back
+        # Keep a single option for consistent BaseMenu handling
+        super().__init__(screen, 'Instructions', [
+            MenuOption('Back', self.on_back),
+        ], background=background)
+        # Predefined, already-wrapped instruction lines
+        self._lines = [
+            'Goal: Find the exit ladder and escape the maze.',
+            'Avoid enemies or defeat them when needed.',
+            '',
+            'Controls:',
+            '- Move: W/A/S/D or Arrow Keys',
+            '- Attack: Space',
+            '- Interact / Use: E',
+            '- Pause / Exit to Menu: Esc',
+            '',
+            'Tips:',
+            '- Watch your health. Use potions when you find them.',
+            '- Coins are for score—pick them up!',
+            '- Some traps are subtle. Move carefully.',
+            '- Sound cues can warn you about threats.',
+        ]
+        self._text_font = pygame.font.Font(None, 28)
+
+    def handle_event(self, event: pygame.event.Event):
+        # Support BaseMenu navigation and also quick back with ESC/BACKSPACE
+        if event.type == pygame.KEYDOWN and event.key in (pygame.K_ESCAPE, pygame.K_BACKSPACE):
+            self.on_back()
+            return
+        super().handle_event(event)
+
+    def render(self):
+        # Render background and title via BaseMenu, but suppress option list first
+        width, height = self.screen.get_size()
+        if self._background_raw is not None and self._background_prepared is None:
+            self._prepare_background()
+        if self._background_prepared is not None:
+            self.screen.blit(self._background_prepared, (0, 0))
+        else:
+            self._render_gradient_fallback()
+
+        # Title
+        title_surf = self.font_title.render(self.title, True, (255, 255, 255))
+        self.screen.blit(title_surf, title_surf.get_rect(center=(width // 2, 80)))
+
+        # Instruction text block
+        x_margin = 120
+        y_start = 150
+        line_h = 30
+        for i, line in enumerate(self._lines):
+            color = (230, 230, 230) if not line.endswith(':') else (255, 215, 0)
+            surf = self._text_font.render(line, True, color)
+            self.screen.blit(surf, (x_margin, y_start + i * line_h))
+
+        # Back option at bottom for consistency
+        back_text = 'Press Esc to go Back or select: Back'
+        hint_surf = self.font_hint.render(back_text, True, (200, 200, 200))
+        self.screen.blit(hint_surf, hint_surf.get_rect(center=(width // 2, height - 60)))
+
+        # Draw the single Back option centered (optional)
+        opt = self.options[0]
+        surf = self.font_option.render('> ' + opt.label, True, (255, 215, 0))
+        self.screen.blit(surf, surf.get_rect(center=(width // 2, height - 100)))

@@ -2,7 +2,7 @@ import pygame
 import sys
 import os
 from game import Game
-from menu import MainMenu, LevelSelectMenu
+from menu import MainMenu, LevelSelectMenu, InstructionsMenu
 from sound_manager import sound_manager
 
 LEVELS = [
@@ -35,7 +35,7 @@ def main():
     clock = pygame.time.Clock()
     running = True
 
-    # App states: 'menu', 'level_select', 'game'
+    # App states: 'menu', 'level_select', 'instructions', 'game'
     state = 'menu'
     game: Game | None = None
 
@@ -56,11 +56,12 @@ def main():
     menu_background = load_static_menu_bg()
 
     def rebuild_menus():
-        nonlocal main_menu, level_select_menu
+        nonlocal main_menu, level_select_menu, instructions_menu
         # Ensure menu music is playing when menus are rebuilt
         sound_manager.play_music('music_dungeon', loop=True, volume=0.5)
-        main_menu = MainMenu(screen, start_level, open_level_select, quit_app, background=menu_background)
+        main_menu = MainMenu(screen, start_level, open_level_select, open_instructions, quit_app, background=menu_background)
         level_select_menu = LevelSelectMenu(screen, LEVELS, start_level, lambda: switch_state('menu'), background=menu_background)
+        instructions_menu = InstructionsMenu(screen, on_back=lambda: switch_state('menu'), background=menu_background)
 
     # Callback handlers for menu actions
     def start_level(level_path: str):
@@ -77,6 +78,10 @@ def main():
         nonlocal state
         state = 'level_select'
 
+    def open_instructions():
+        nonlocal state
+        state = 'instructions'
+
     def quit_app():
         nonlocal running
         running = False
@@ -86,8 +91,9 @@ def main():
         state = new_state
 
     # Create menu instances initially (with static background if any)
-    main_menu = MainMenu(screen, start_level, open_level_select, quit_app, background=menu_background)
+    main_menu = MainMenu(screen, start_level, open_level_select, open_instructions, quit_app, background=menu_background)
     level_select_menu = LevelSelectMenu(screen, LEVELS, start_level, lambda: switch_state('menu'), background=menu_background)
+    instructions_menu = InstructionsMenu(screen, on_back=lambda: switch_state('menu'), background=menu_background)
 
     while running:
         dt = clock.tick(60) / 1000.0
@@ -103,6 +109,8 @@ def main():
                 main_menu.handle_event(event)
             elif state == 'level_select' and level_select_menu is not None:
                 level_select_menu.handle_event(event)
+            elif state == 'instructions' and instructions_menu is not None:
+                instructions_menu.handle_event(event)
 
         if not running:
             break
@@ -133,6 +141,8 @@ def main():
             main_menu.render()
         elif state == 'level_select' and level_select_menu is not None:
             level_select_menu.render()
+        elif state == 'instructions' and instructions_menu is not None:
+            instructions_menu.render()
 
         pygame.display.flip()
 
