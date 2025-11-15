@@ -188,3 +188,80 @@ Examples:
 ```python
 if obj.properties['obj_type'] == 'collectible':
     spawn Collectible(obj)
+```
+
+## 📏 Hitbox Sizes & Visual Alignment
+
+TMX uses different object sizes:
+
+- Keys / Coins / Potions → **16×16**
+- Enemies → **32×32**
+- Player spawn → **~19×20**
+
+**Hints:**
+- Standardize hitboxes (e.g., player width 12–14 px) so movement feels fair and consistent.
+
+**Use:**
+```python
+rect.inflate(-n, -m)
+```
+## 🧭 HUD & Feedback
+
+TMX implies the need for a basic heads-up display (HUD) showing:
+- Silver key count
+- Golden key count
+- Score
+- HP bar
+- Door locked/unlocked messages
+- Pickup notifications
+
+**Behaviour:**
+The HUD should always reflect:
+- `player.inventory`
+- `player.hp`
+- `player.score`
+
+## 🎥 Map Size & Camera Behavior
+
+Map dimensions: **50 × 38** tiles (16 px each).
+
+**Behaviour:**
+- The camera follows the player.
+- Camera must **clamp** to map boundaries so it never shows outside the world.
+
+**Formula:**
+```python
+camera_offset = player.center - (screen_w/2, screen_h/2)
+camera_offset = clamp(camera_offset, map_bounds)
+```
+
+## 🛠️ Developer Debug Tools
+
+Useful debug features for development:
+- Draw object IDs above each object
+- Toggle visibility of the collision layer
+- Show collision hitboxes
+- Highlight object groups (doors, traps, collectibles, etc.)
+These tools make gameplay tuning and level testing much easier.
+
+## 🧩 Balance & Design Notes
+
+Based on map content:
+- Silver keys required → **4**
+- Golden keys required → **2**
+- Potion heal → **25**
+- Spike damage → **25**
+- Ideal player max HP → **100** (multiple of 25)
+Enemies are sparse, so a simple patrol → chase AI suits the map well.
+
+## 🧱 Minimum Runtime Classes Needed
+
+| Class           | Purpose                            |
+| --------------- | ---------------------------------- |
+| **Player**      | Movement, HP, inventory, i-frames  |
+| **TileMap**     | Layer rendering, collision grid    |
+| **Door**        | Key checks, locked/open animations |
+| **Collectible** | Coins, keys, potions pickup logic  |
+| **Enemy**       | AI, hitbox, movement               |
+| **Trap**        | Animated spike logic + damage      |
+| **Ladder**      | Level transition to next map       |
