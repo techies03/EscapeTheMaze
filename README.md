@@ -61,6 +61,9 @@ Alternative (if you prefer the launcher):
 py src\main.py
 ```
 
+## Assets Packs
+- https://pixel-poem.itch.io/dungeon-assetpuck
+
 ## Project structure (high level)
 - `src/` – game code
   - `main.py` – app entry with menus and state management
