@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cf1f6bd-4001-4631-b52e-7df7259b61aa" name="Changes" comment="initial">
+    <list default="true" id="0cf1f6bd-4001-4631-b52e-7df7259b61aa" name="Changes" comment="Update README with Windows setup instructions and minor formatting adjustments">
+      <change afterPath="$PROJECT_DIR$/DECORATION_FIX.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/level2.tmx" beforeDir="false" afterPath="$PROJECT_DIR$/maps/level2.tmx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/map_loader.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +130,9 @@
       <workItem from="1763101992031" duration="353000" />
       <workItem from="1763102359030" duration="4595000" />
       <workItem from="1763172432700" duration="1725000" />
-      <workItem from="1763174209678" duration="16160000" />
+      <workItem from="1763174209678" duration="17416000" />
+      <workItem from="1763438087903" duration="9000" />
+      <workItem from="1763442558100" duration="2435000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -170,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763198984101</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update README with Windows setup instructions and minor formatting adjustments">
+      <option name="closed" value="true" />
+      <created>1763201426644</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1763201426644</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,11 +201,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="Update README with Windows setup instructions and minor formatting adjustments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README with Windows setup instructions and minor formatting adjustments" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/EscapeTheMaze$game.coverage" NAME="game Coverage Results" MODIFIED="1763102611848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/EscapeTheMaze$script.coverage" NAME="script Coverage Results" MODIFIED="1762205269007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/EscapeTheMaze$main.coverage" NAME="main Coverage Results" MODIFIED="1763201373453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\CEED\PycharmProjects\Final\EscapeTheMaze" />
+    <SUITE FILE_PATH="coverage/EscapeTheMaze$main.coverage" NAME="main Coverage Results" MODIFIED="1763445097051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\CEED\PycharmProjects\Final\EscapeTheMaze" />
   </component>
 </project>
